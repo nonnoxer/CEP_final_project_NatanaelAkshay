@@ -13,7 +13,7 @@ This learning journey (LJ) allocation program is designed to allocate students t
 
 ## Getting Started
 
-Download lj_allocation.py for usage. Download venuesExample.csv and chociesExample.csv if you need a reference for the required input file formats.
+Download LJAllocation.py for usage. Download venuesExample.csv and chociesExample.csv if you need a reference for the required input file formats.
 
 ### Prerequisites
 
