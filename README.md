@@ -12,6 +12,9 @@ This learning journey (LJ) allocation program is designed to allocate students t
 * Able to assign invalid submissions to random available LJ
 
 ## Getting Started
+
+Download lj_allocation.py for usage. Download venuesExample.csv and chociesExample.csv if you need a reference for the required input file formats.
+
 ### Prerequisites
 
 In order to run this program, you will need to have [Python 3](https://www.python.org/downloads/) installed as this program runs using Python 3.
