@@ -1,31 +1,31 @@
 # Learning Journey Allocation
 
-This learning journey (LJ) allocation program is designed to allocate students to certain LJs based on their choices and time submitted. This program takes in 2 separate files which contain all the necessary data and outputs a few sets of files for convenience.
+This learning journey (LJ) allocation program is designed to allocate students to certain LJ. This program takes in 2 separate files which contain all the necessary data and outputs 3 sets of files for convenience.
+The program will first sort the applications by time submitted, before allocating students to various LJs according to time submitted, choice, and available slots. Invalid submissions will be allocated to the first LJ with available slots.
 
 ## Getting Started
-
-To use this program, simply run it and type in your desired input files (in a .csv format), and it will quickly process them and create a few sets of output files (in a .csv format).
-
 ### Prerequisites
 
 In order to run this program, you will need to have [Python 3](https://www.python.org/downloads/) installed as this program runs using Python 3.
 
 ### Input
 
-You will need a set of input files with the format of the following files:
+You will need a set of input files with the format of the following files (all in .csv format):
 
 ```
 venuesExample.csv
 choicesExample.csv
 ```
 
+Ensure that all input files are in the same folder as the program.
+
 ### Usage
 
-The program will automatically request the desired venue and choice files from the user upon start.
+Upon starting this program, it will automatically request your 2 desired input files. After processing, it will output 3 sets of files. In case the program is stopped or is needed to be run again, you can type start() into the console.
 
 ### Output
 
-The program will output 3 sets of files:
+The program will output 3 sets of files (all in .csv format):
 
 1. The master output file containing the allocations of all the students
 2. An output file for each class of students
