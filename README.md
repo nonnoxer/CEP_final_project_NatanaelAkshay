@@ -1,13 +1,15 @@
 # Learning Journey Allocation
 
-This learning journey (LJ) allocation program is designed to allocate students to certain LJ. This program takes in 2 separate files which contain all the necessary data and outputs 3 sets of files for convenience.
-
-The program will first sort the applications by time submitted, before allocating students to various LJs according to time submitted, choice, and available slots. Invalid submissions will be allocated to the first LJ with available slots.
+This learning journey (LJ) allocation program is designed to allocate students to certain LJs.
 
 ## Features
 
+* Takes in 2 input files containing LJ data and student data
+* Sorts submissions chronologically
+* Outputs 3 sets of files
 * Able to handle student names with a comma in the middle (*eg. "Lee, Bob"*)
 * Able to take in 2 date formats ("-" or "/")
+* Able to assign invalid submissions to random available LJ
 
 ## Getting Started
 ### Prerequisites
